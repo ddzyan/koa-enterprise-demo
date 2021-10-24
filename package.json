@@ -1,7 +1,7 @@
 {
-  "name": "koa-enterprise-demo",
+  "name": "{{name}}",
   "version": "1.0.0",
-  "description": "",
+  "description": "{{description}}",
   "main": "index.js",
   "scripts": {
     "test": "mocha ./test --bail --timeout 30000 --recursive --slow 1000 --exit",
@@ -21,7 +21,7 @@
     "supertest": "^6.1.6"
   },
   "keywords": [],
-  "author": "",
+  "author": "{{author}}",
   "license": "ISC",
   "dependencies": {
     "koa-enterprise": "^1.0.2"
